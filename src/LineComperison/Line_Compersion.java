@@ -27,7 +27,7 @@ public class Line_Compersion {
         System.out.println("Enter y4 point");
         int y4=sc.nextInt();
         len=Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
-        double len1=Math.sqrt(Math.pow((x4-x3),2) + Math.pow((y4-y3),2));
+        len1=Math.sqrt(Math.pow((x4-x3),2) + Math.pow((y4-y3),2));
         System.out.println("Length of a line ("+x1+","+y1+"),"+"("+x2+","+y2+")===>"+len);
         System.out.println();
         System.out.println("Length of a line ("+x3+","+y3+"),"+"("+x4+","+y4+")===>"+len1);
