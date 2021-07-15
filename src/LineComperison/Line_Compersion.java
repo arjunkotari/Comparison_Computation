@@ -6,23 +6,26 @@ public class Line_Compersion {
 	public static void main(String[] args) {
 		System.out.println("Welcome to Line Comparison Computation Program");
 		
-		int x1,y1,x2,y2;		
-		int x3=10,y3=15,x4=4,y4=20;
-        double len;
+        double len.len1;
         
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter x1 point");
-        x1=sc.nextInt();
-        
+        int x1=sc.nextInt();        
         System.out.println("Enter y1 point");
-        y1=sc.nextInt();
-        
+        int y1=sc.nextInt();        
         System.out.println("Enter x2 point");
-        x2=sc.nextInt();
-
+        int x2=sc.nextInt();
         System.out.println("Enter y2 point");
-        y2=sc.nextInt();
-        
+        int y2=sc.nextInt();
+	
+	System.out.println("Enter x3 point");
+        int x3=sc.nextInt();        
+        System.out.println("Enter y3 point");
+        int y3=sc.nextInt();        
+        System.out.println("Enter x4 point");
+        int x4=sc.nextInt();
+        System.out.println("Enter y4 point");
+        int y4=sc.nextInt();
         len=Math.sqrt(Math.pow((x2-x1),2) + Math.pow((y2-y1),2));
         double len1=Math.sqrt(Math.pow((x4-x3),2) + Math.pow((y4-y3),2));
         System.out.println("Length of a line ("+x1+","+y1+"),"+"("+x2+","+y2+")===>"+len);
@@ -50,11 +53,11 @@ public class Line_Compersion {
         }
         else if(s1.compareTo(s2) > 0)
         {
-        	System.out.println("Length1 less then length2");
+        	System.out.println("Length1 greter then length2");
         }
         else if(s1.compareTo(s2) < 0)
         {
-        	System.out.println("Length1 greater then length2");
+        	System.out.println("Length1 less then length2");
         }
         sc.close();
 	}
